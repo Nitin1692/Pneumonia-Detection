@@ -13,7 +13,7 @@ def predict():
     image_path = "./images/" + imagefile.filename
     imagefile.save(image_path)
     model = tf.keras.models.load_model('model.h5')
-    img = tf.keras.utils.load_img(image_path, target_size = (320,320))
+    img = tf.keras.utils.load_img(image_path, target_size = (224,224))
     imagee=tf.keras.utils.img_to_array(img)
     imagee=np.expand_dims(imagee, axis=0)
     img_data=tf.keras.applications.densenet.preprocess_input(imagee)
