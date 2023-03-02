@@ -18,7 +18,7 @@ def predict():
     imagee=np.expand_dims(imagee, axis=0)
     img_data=tf.keras.applications.densenet.preprocess_input(imagee)
     prediction=model.predict(img_data)
-    if prediction[0][0]>prediction[0][-1]:  
+    if prediction[0][0]>prediction[0][1]:  
         pred = "Person is Safe."
     else:
         pred = "Person is affected with Pneumonia."
