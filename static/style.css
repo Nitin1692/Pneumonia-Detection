@@ -30,23 +30,44 @@ body{
     font-family: 'Unna', serif;
     font-size: 40px;
 }
-
+/*
 .image{
-    padding: 40px 140px;
+    padding: 35px 140px;
     position: relative;
     top: -25px;
     font-size: 20px;
-    left: -50px;
+    right: -51px;
     font-family: 'Exo 2', sans-serif;
-}    
+}*/
 
-
+.image {
+    width: 350px;
+    max-width: 100%;
+    color: #444;
+    position: relative;
+    bottom: -5px;
+    right: -40px;
+    padding: 5px 60px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #555;
+}
+.image::file-selector-button{
+    border: none;
+    background: #084cdf;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+    font-family: 'Exo 2', sans-serif;
+}
 
 .predict{
     position: relative;
-    top: -45px;
     right: -170px;
     width: 100px;
+    bottom: -20px;
     border: none;
     background: #FFFF9B;
     border-radius: 5px;
