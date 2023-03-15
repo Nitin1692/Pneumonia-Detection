@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,20 +7,53 @@
 }
 
 body{
+    background-image: url('./pic1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     min-height: 100vh;
-    background: rgb(152, 97, 203);
 }
 
 .container{
     width: 485px;
-    background: #fff;
+    height: 300px;
+    background: #ffffffc0;
+    opacity: 0.8;
     border-radius: 10px;
     padding: 22px 30px 40px;
 }
 
-.container h1{
+.head{
     text-align: center;
+    font-family: 'Unna', serif;
+    font-size: 40px;
 }
+
+.image{
+    padding: 40px 140px;
+    position: relative;
+    top: -25px;
+    font-size: 20px;
+    left: -50px;
+    font-family: 'Exo 2', sans-serif;
+}    
+
+
+
+.predict{
+    position: relative;
+    top: -45px;
+    right: -170px;
+    width: 100px;
+    border: none;
+    background: #FFFF9B;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
