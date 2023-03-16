@@ -18,7 +18,7 @@ body{
 
 .container{
     width: 485px;
-    height: 300px;
+    height: 230px;
     background: #ffffffc0;
     opacity: 0.8;
     border-radius: 10px;
@@ -30,15 +30,6 @@ body{
     font-family: 'Unna', serif;
     font-size: 40px;
 }
-/*
-.image{
-    padding: 35px 140px;
-    position: relative;
-    top: -25px;
-    font-size: 20px;
-    right: -51px;
-    font-family: 'Exo 2', sans-serif;
-}*/
 
 .image {
     width: 350px;
@@ -51,6 +42,7 @@ body{
     background: #fff;
     border-radius: 10px;
     border: 1px solid #555;
+    font-family: 'Exo 2', sans-serif;
 }
 .image::file-selector-button{
     border: none;
@@ -77,4 +69,18 @@ body{
     font-family: 'Exo 2', sans-serif;
 }
 
+.Result{
+    position: relative;
+    right: -13px;
+    bottom: -32px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+}
 
+.Prediction{
+    position: relative;
+    right: -80px;
+    bottom: -8px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+}
