@@ -18,7 +18,7 @@ body{
 
 .container{
     width: 485px;
-    height: 230px;
+    height: 450px; 
     background: #ffffffc0;
     opacity: 0.8;
     border-radius: 10px;
@@ -58,8 +58,8 @@ body{
 .predict{
     position: relative;
     right: -170px;
+    bottom: -40px;
     width: 100px;
-    bottom: -20px;
     border: none;
     background: #FFFF9B;
     border-radius: 5px;
@@ -72,7 +72,7 @@ body{
 .Result{
     position: relative;
     right: -13px;
-    bottom: -32px;
+    bottom: -39px;
     font-family: 'Exo 2', sans-serif;
     font-size: 20px;
 }
@@ -80,7 +80,88 @@ body{
 .Prediction{
     position: relative;
     right: -80px;
-    bottom: -8px;
+    bottom: -16px;
     font-family: 'Exo 2', sans-serif;
     font-size: 20px;
+}
+
+
+
+.container .reload-btn{
+    width: 75px;
+    height: 100%;
+    font-size: 25px;
+}
+
+.container .captcha-img .captcha{
+    position: absolute;
+    right: 650px;
+    top: 310px;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    letter-spacing:2px;
+    text-align: center;
+    color: black;
+    text-shadow: 0 0 2px #a9a9a9;
+    font-family: 'Noto Serif', serif;
+}
+
+.container .reload-btn{
+    width: 75px;
+    height: 100%;
+    font-size: 25px;
+}
+
+.reload-btn{
+    position: relative;
+    top: -43px;
+    right: -370px;
+    background: #FFFF9B;
+    border: none;
+    border-radius: 5px;
+}
+
+.container .captcha-img img{
+    position: relative;
+    bottom: -20px;
+    right: -70px;
+}
+
+#code{
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    padding-left: 20px;
+    font-size: 20px;
+    width: 270px;
+    height: 60px;
+    padding: 10px;
+    position: relative;
+    bottom: -25px;
+
+}
+
+#code:is(:focus, :valid){
+    border: 2px solid rgb(152, 97, 203);
+    padding-left: 19px;
+}
+
+.check-btn{
+    height: 35px;
+    padding: 0 20px;
+    font-size: 17px;
+    transform: translateY(-50%);
+    position: relative;
+    right: -355px;
+    background: #FFFF9B;
+    border: none;
+    border-radius: 5px;
+}
+
+.status-txt{
+    margin: 20px 0 -5px 0;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    bottom: -20px;
 }
